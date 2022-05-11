@@ -37,8 +37,8 @@ def build_csv_report():
             writer.writerow([category, percentage])
 
 
-books = retrieve_books()
-cat_dict = count_books_by_categories(books)
-print(cat_dict)
+# books = retrieve_books()
+# cat_dict = count_books_by_categories(books)
+# print(cat_dict)
 
 build_csv_report()
