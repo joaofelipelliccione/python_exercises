@@ -1,12 +1,12 @@
 """
 Baseado em uma página contendo detalhes sobre um livro, faça a extração dos
 campos:
-  - título;
-  - preço (somente valores numéricos e ponto. Ex: Â£13.76 -> 13.76.);
-  - descrição (sem sufixo "more...") e
-  - url contendo a imagem de capa do livro.
+    - título;
+    - preço (somente valores numéricos e ponto. Ex: Â£13.76 -> 13.76.);
+    - descrição (sem sufixo "more...") e
+    - url contendo a imagem de capa do livro.
 Os campos extraídos devem ser apresentados separados por vírgula.
-  - Ex: título, preço, descrição, capa.
+    - Ex: título, preço, descrição, capa.
 """
 import requests
 from parsel import Selector
@@ -27,7 +27,7 @@ def get_selector(url):
 
 
 def get_required_gaps(url):
-    book_selector = get_selector(END_POINT)
+    book_selector = get_selector(url)
 
     if book_selector == "Algo deu errado.":
         return "Request não realizada :("
