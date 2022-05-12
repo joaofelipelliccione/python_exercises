@@ -11,4 +11,4 @@ def recursive_sum(num):
         return num + recursive_sum(num - 1)
 
 
-print(recursive_sum(4))  # 10
+print(recursive_sum(4))
