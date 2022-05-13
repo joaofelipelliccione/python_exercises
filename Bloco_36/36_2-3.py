@@ -1,4 +1,4 @@
-"""Faça uma função recursiva que recebe um array 
+"""Faça uma função recursiva que recebe um array
 e o retorna na ordem reversa."""
 
 
