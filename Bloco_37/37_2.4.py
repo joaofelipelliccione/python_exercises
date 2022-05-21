@@ -4,10 +4,10 @@ respectivas letras iniciais.
 
 Ex: test_arr = [Luíza, João, Luana, Pedro, José, Luciana, Maria]
 {
-  J: [João, José],
-  L: [Luíza, Luana, Luciana],
-  M: [Maria],
-  P: [Pedro],
+    J: [João, José],
+    L: [Luíza, Luana, Luciana],
+    M: [Maria],
+    P: [Pedro],
 }
 """
 

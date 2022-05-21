@@ -1,5 +1,5 @@
 """
-  Desenvolva uma classe que simule uma TV.
+Desenvolva uma classe que simule uma TV.
 """
 
 
